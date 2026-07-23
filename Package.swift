@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.5.1"),
+        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", exact: "13.6.3"),
     ],
     targets: [
         .target(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "REVUPMediaMax",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.0.0/REVUPMediaMax.zip",
-            checksum: "bcae1033aa0ed29ee3d67d03b343f5607d45165cc072fc39a88f98e1e45ffeed"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.0/REVUPMediaMax.zip",
+            checksum: "9624ebe60290a5fb7737e3bf95fe2359cc577a33e382a07916fcf7982dfa511a"
         ),
     ]
 )
