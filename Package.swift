@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "REVUPMediaMax",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.2.0/REVUPMediaMax.zip",
-            checksum: "972f01202a8de85ef87b7e840b2093feaaa85365cebd920fd23fd9d4a6a16e81"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.2.1/REVUPMediaMax.zip",
+            checksum: "356ca82e190d4606977061b0b7a1d803f02ab571934260d95737401252ce33c5"
         ),
     ]
 )
